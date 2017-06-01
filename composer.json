@@ -1,0 +1,20 @@
+{
+  "name": "phizzl/browserstackautomateapi",
+  "description": "",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Phillip Schleicher",
+      "email": "the@phizzl.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Phizzl\\Browserstack\\Api\\": "src/"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.2"
+  }
+}
